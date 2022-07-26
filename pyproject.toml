@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "whosoncall"
+version = "1.0.0"
+description = ""
+authors = ["Rebeca Maia <rebeca.maia@wildlifestudios.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+requests = "2.27.1"
+pytz = "2022.1"
+
+[tool.poetry.dev-dependencies]
+
+[tool.black]
+line-length = 120
+exclude = '.venv'
+target-version = ['py310']
+
+[tool.isort]
+line_length = '120'
+profile = "black"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
