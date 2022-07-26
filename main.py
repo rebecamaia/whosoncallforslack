@@ -6,7 +6,7 @@ import sys
 
 def who_is_on_call(workflow, date):
     print("Checking who is on call....")
-    user_cloudops = opsgenie_helper.opsgenie_who_is_oncall(config.observabilityservices_schedule_id, date)
+    user_cloudops = opsgenie_helper.opsgenie_who_is_oncall(config.cloudops_schedule_id, date)
     print("Done checking who is on call.... \CloudOps: " + user_cloudops)
     slack_helper.send_info_to_slack(workflow, user_cloudops)
 
