@@ -2,7 +2,7 @@
 name = "whosoncall"
 version = "1.0.0"
 description = ""
-authors = ["Rebeca Maia <rebeca.maia@wildlifestudios.com>"]
+authors = ["Rebeca Maia <rebecamaia.lmp@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.10"
